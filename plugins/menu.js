@@ -234,14 +234,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖 𝙏𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
 ┗━━━━━━━━⬣
 ┏━━〔 *_SewaBot?_* 〕━⬣
-┃⬡ *1 Day*     = *FREE*
-┃⬡ *1 Minggu*  = *Rp.5.000*
-┃⬡ *Permanent* = *Rp.10.000*
-┃⬡ 
+┃⬡ *Perminggu*     = *1.000*
+┃⬡ *Perbulan*  = *Rp.3.000*
+┃⬡ *Permanent* = *Rp.5.000*
+┃⬡ *Permanent + User Prem* = *Rp.7.000*
 ┗━━━━━━━━⬣`.trim(),
 
-                        "footerText": "*_Create By Fahzz_*",
-                        "buttonText": "*Klik Disini*",
+                        "footerText": "*_Create By Sabo_*",
+                        "buttonText": "*Menu*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
